@@ -1,0 +1,46 @@
+.available-contacts {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contacts-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.contacts-table th, .contacts-table td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.contacts-table th {
+    background-color: #002224;
+    color: white;
+}
+
+.contacts-table td button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contacts-table td button:hover {
+    background-color: #0056b3;
+}
+
+.contacts-table input[type="text"] {
+    width: 90%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}

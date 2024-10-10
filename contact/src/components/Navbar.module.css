@@ -1,0 +1,59 @@
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #953ff1ef;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo container */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+/* Styling for the Contact Manager text */
+.logo a {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 0.5rem;
+    animation: bounce 2s infinite; /* Adding the bounce animation */
+}
+
+/* Keyframes for text animation */
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+/* Links container */
+.links {
+    display: flex;
+    gap: 2rem;
+}
+
+.links a {
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.links a:hover {
+    color: #ffafbd;
+}
+
+/* Styling for the icon */
+.icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}

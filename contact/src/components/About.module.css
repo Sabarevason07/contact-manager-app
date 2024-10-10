@@ -1,0 +1,24 @@
+.container {
+    max-width: 800px; /* Maximum width for the content */
+    margin: 50px auto; /* Centered horizontally with space above */
+    padding: 20px; /* Padding around the container */
+    background-color: #f9f9f9; /* Light background for contrast */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+h1 {
+    text-align: center; /* Center the main heading */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+h2 {
+    margin-top: 30px; /* Space above subheadings */
+    margin-bottom: 10px; /* Space below subheadings */
+}
+
+p {
+    margin-bottom: 15px; /* Space below paragraphs */
+    line-height: 1.6; /* Improve readability */
+    color: #333; /* Dark text color */
+}
